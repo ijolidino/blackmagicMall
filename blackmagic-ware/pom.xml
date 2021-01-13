@@ -8,7 +8,7 @@
 		<version>2.3.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.blackmagic.mail</groupId>
+	<groupId>com.blackmagic.mall</groupId>
 	<artifactId>blackmagic-ware</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>blackmagic-ware</name>
@@ -21,7 +21,7 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>com.blackmagic.mail</groupId>
+			<groupId>com.blackmagic.mall</groupId>
 			<artifactId>blackmagic-commons</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
