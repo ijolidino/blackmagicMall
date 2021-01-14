@@ -18,6 +18,7 @@
 		<module>renren-generator</module>
         <module>blackmagic-commons</module>
 		<module>blackmagic-gateway</module>
+		<module>blackmagic-third-party</module>
     </modules>
 
 </project>
