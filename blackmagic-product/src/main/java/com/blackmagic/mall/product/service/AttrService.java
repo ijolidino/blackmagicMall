@@ -3,6 +3,7 @@ package com.blackmagic.mall.product.service;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.blackmagic.commons.utils.PageUtils;
 import com.blackmagic.mall.product.entity.AttrEntity;
+import com.blackmagic.mall.product.vo.AttrVo;
 
 import java.util.Map;
 
@@ -16,5 +17,9 @@ import java.util.Map;
 public interface AttrService extends IService<AttrEntity> {
 
     PageUtils queryPage(Map<String, Object> params);
+
+    void saveAttr(AttrVo attr);
+
+    PageUtils queryBaseAttrPage(Map<String, Object> params, Long catelogId, String type);
 }
 
